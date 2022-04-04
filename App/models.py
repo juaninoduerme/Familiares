@@ -6,5 +6,5 @@ class Familiar(models.Model):
     nombre = models.CharField(max_length=30)
     apellido = models.CharField(max_length=30)
     fechaDeNacimiento = models.DateField(max_length=30)
-    dni = models.IntegerField(max_length=8)
+    dni = models.IntegerField()
     parentezco = models.CharField(max_length=30)
