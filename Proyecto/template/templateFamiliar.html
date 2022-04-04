@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVT</title>
+</head>
+<body>
+
+    <h1 style="color: turquoise;">Familiar</h1>
+    < % for familiar in familiares % >
+    <p>
+        <h3 style="color: blue;">Nombre/s: {{familiar.nombre}}</h3>
+    </p>
+    <p>
+        <h3 style="color: blue;">Apellido: {{familiar.apellido}}</h3>
+    </p>
+    <p>
+        <h3 style="color: blue;">Fecha de Nacimiento: {{familiar.fechaDeNacimiento}}</h3>
+    </p>
+    <p>
+        <h3 style="color: blue;">DNI: {{familiar.dni}}</h3>
+    </p>
+    <p>
+        <h3 style="color: blue;">Parentezco: {{familiar.parentezco}}</h3>
+    </p>
+
+
+    < % endfor % >
+
+</body>
+</html>
